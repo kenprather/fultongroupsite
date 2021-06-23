@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,10 +6,14 @@
     box-sizing: border-box;
     scrollbar-color: transparent transparent; /* thumb and track color */
     scrollbar-width: 0px;
-    -ms-overflow-style: none;
+}
+body{ 
+	max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
 }
 ul{
-    background-color:rgb(8, 8, 8);
+    background-color:rgb(7, 7, 7);
     padding: 10px;
 }
 li{
@@ -32,11 +37,11 @@ li a:link{
 }
 
 li a:visited{
-    color:rgb(127, 128, 127)
+    color:rgb(151, 118, 55);
 }
 
 li a:hover{
-    background-color:rgb(139, 113, 63);
+    background-color:rgb(104, 103, 102);
     color: #fff;
 }
 
@@ -104,7 +109,7 @@ body {
 
   margin: 0 auto;
   padding: 0 1.25rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -165,7 +170,7 @@ ul, li {
   top: 50%;
   left: 50%;
   transform: translate3d(-50%,-40%,70px);
-  color: #fff;
+  color: transparent;
   font-size: 2em;
 }
 
@@ -217,8 +222,8 @@ ul, li {
 
 .carousel__navigation-button {
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: .5rem;
+  height: .5rem;
   background-color: #333;
   background-clip: content-box;
   border: 0.25rem solid transparent;
@@ -278,7 +283,7 @@ ul, li {
   .footer{
   background:#000;
   padding:30px 0px;
-  font-family: 'Play', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align:center;
   }
   
@@ -288,6 +293,7 @@ ul, li {
   padding:0.6% 0%;
   color:gray;
   font-size:0.8em;
+  
   }
   
   .footer .row a{
@@ -326,5 +332,5 @@ ul, li {
   }
   .footer .row a i{
   margin:0% 3%;
-  }
-  }
+}
+}
