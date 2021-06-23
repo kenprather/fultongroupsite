@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
     scrollbar-color: transparent transparent; /* thumb and track color */
     scrollbar-width: 0px;
@@ -76,7 +76,7 @@ li a:hover{
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-weight: 100;
   font-size: 12px;
   line-height: 30px;
@@ -99,7 +99,7 @@ body {
 #contact textarea,
 #contact button[type="submit"] 
 {
-  font: 400 12px/16px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font: 400 12px/16px 'Arial Narrow', Arial, sans-serif;
 }
 
 #contact {
@@ -211,7 +211,7 @@ fieldset {
   .footer{
   background:#000;
   padding:30px 0px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   text-align:center;
   }
   
